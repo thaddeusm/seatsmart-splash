@@ -3,7 +3,7 @@
         <section id="logoArea">
             <img src="@/assets/logo.svg" alt="Seatsmart logo">
         </section>
-        <h3>Seatsmart</h3>
+        <h3>Seatsmart <span id="subtitle">| class participation manager</span></h3>
     </header>
 </template>
 
@@ -19,7 +19,7 @@ export default {
     background: var(--light-gray);
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 70% 30%;
     grid-template-areas: "title logo";
     align-items: center;
 }
@@ -37,6 +37,18 @@ img {
 
 h3 {
     grid-area: title;
-    margin-left: 5%;
+    margin-left: 3%;
+    text-align: left;
+}
+
+#subtitle {
+    color: var(--gray);
+}
+
+
+@media screen and (max-width: 800px) {
+    #subtitle {
+        display: none;
+    }
 }
 </style>

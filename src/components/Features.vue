@@ -12,6 +12,10 @@
             <h4>Customize</h4>
             <img src="@/assets/customize.gif" alt="customize settings recording">
         </div>
+        <div class="feature">
+            <h4>Control with a Mobile Device</h4>
+            <img src="@/assets/remote.gif" alt="remote recording">
+        </div>
     </section>
 </template>
 
