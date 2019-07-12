@@ -1,29 +1,9 @@
-# seatsmart-splash
+![Seatsmart Icon](https://seatsmart.tech/img/logo.b38f8b88.svg)
 
-## Project setup
-```
-yarn install
-```
+# Seatsmart
+Seatsmart offers a convenient way to implement classroom
+participation guidance by the Department of English at Fort Hays State 
+University for courses conducted at campuses in China.  
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Seatsmart](https://github.com/thaddeusm/seatsmart-FHSU) is available as a 
+desktop application for Mac OSX and Microsoft Windows systems.
