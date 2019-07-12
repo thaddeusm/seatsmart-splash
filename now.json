@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": "seatsmart.tech",
+  "alias": ["seatsmart.tech", "seatsmart.now.sh"],
   "name": "seatsmart",
   "builds": [{ "src": "package.json", "use": "@now/static-build" }],
   "routes": [
