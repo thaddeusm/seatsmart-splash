@@ -16,7 +16,7 @@
 		</p>
 		<p>
 			FHSU policies related to technology use and information security were carefully considered in the
-			development of Seatsmart.  The application does not require Internet access.  All data is stored 
+			development of Seatsmart.  Essential features of Seatsmart do not require Internet access.  All data is stored 
 			locally on your computer.  This data is intended to remain on your local hard drive and not transfered to any cloud storage system.  This helps ensure that data related to students remains confidential.  Records in Seatsmart relate to students' academic performance and therefore should be protected just as any other student information.
 		</p>
     </section>
