@@ -4,6 +4,9 @@
             <img src="@/assets/logo.svg" alt="Seatsmart logo">
         </section>
         <h3>Seatsmart <span id="subtitle">| class participation manager</span></h3>
+        <section id="linkArea">
+            <a href="https://github.com/thaddeusm/seatsmart-FHSU/wiki/Development-Roadmap-(Academic-Year-2019-2020)" target="_blank">Roadmap</a>
+        </section>
     </header>
 </template>
 
@@ -19,14 +22,15 @@ export default {
     background: var(--light-gray);
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 70% 30%;
-    grid-template-areas: "title logo";
+    grid-template-columns: 70px 55% 1fr 20px;
+    grid-template-areas: "logo title links .";
     align-items: center;
 }
 
 #logoArea {
     grid-area: logo;
-    text-align: right;
+    width: 50px;
+    text-align: left;
 }
 
 img {
@@ -43,6 +47,20 @@ h3 {
 
 #subtitle {
     color: var(--gray);
+}
+
+#linkArea {
+    grid-area: links;
+    text-align: right;
+}
+
+a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 
