@@ -5,8 +5,6 @@
 </template>
 
 <script>
-
-
 export default {
     name: 'Splash'
 }
@@ -16,8 +14,6 @@ export default {
 <style scoped>
 #splashContainer {
     background: var(--black);
-    /*margin-bottom: -5px;
-    margin-top: 20px;*/
 }
 
 img {

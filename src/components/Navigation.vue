@@ -5,6 +5,7 @@
         </section>
         <h3>Seatsmart <span id="subtitle">| class participation manager</span></h3>
         <section id="linkArea">
+            <a href="https://mailfhsu-my.sharepoint.com/:v:/g/personal/tbmccleary_fhsu_edu/ERWcdtM1yBJPhffl5rvttiwBP8JNyhQA9_RoBg-kEkw4Pw?e=iyrKnZ" target="_blank">Walkthrough</a>
             <a href="https://github.com/thaddeusm/seatsmart-FHSU/wiki/Development-Roadmap-(Academic-Year-2019-2020)" target="_blank">Roadmap</a>
         </section>
     </header>
@@ -22,21 +23,20 @@ export default {
     background: var(--light-gray);
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 70px 55% 1fr 20px;
-    grid-template-areas: "logo title links .";
+    grid-template-columns: 30px auto auto;
+    grid-template-areas: "logo title links";
     align-items: center;
 }
 
 #logoArea {
     grid-area: logo;
-    width: 50px;
     text-align: left;
 }
 
 img {
-    height: 50px;
+    width: 30px;
     vertical-align: middle;
-    margin-right: 5%;
+    margin-right: 10px;
 }
 
 h3 {
@@ -57,6 +57,7 @@ h3 {
 a {
     color: var(--black);
     text-decoration: none;
+    margin: 0 10px;
 }
 
 a:hover {
