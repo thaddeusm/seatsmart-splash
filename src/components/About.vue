@@ -19,6 +19,9 @@
 			development of Seatsmart.  Essential features of Seatsmart do not require Internet access.  All data is stored 
 			locally on your computer.  This data is intended to remain on your local hard drive and not transfered to any cloud storage system.  This helps ensure that data related to students remains confidential.  Records in Seatsmart relate to students' academic performance and therefore should be protected just as any other student information.
 		</p>
+		<p>
+			Seatsmart is under active development, with many planned enhancements for the 2019-2020 academic year.  Read the <a href="https://github.com/thaddeusm/seatsmart-FHSU/wiki/Development-Roadmap-(Academic-Year-2019-2020)" target="_blank">Development Roadmap</a> for more information.
+		</p>
     </section>
 </template>
 
@@ -42,5 +45,9 @@ p {
     line-height: 1.8;
     margin: 15px auto;
     max-width: 800px;
+}
+
+a {
+    color: var(--black);
 }
 </style>
