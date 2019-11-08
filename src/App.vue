@@ -2,9 +2,9 @@
     <div id="app">
         <Navigation />
         <Splash />
-        <DownloadLinks :version="version" :PC="PC" :mac="mac" />
+        <DownloadLinks :version="version" :PC="PC" :mac="mac" v-if="loaded" />
         <Features />
-        <ReleaseNotes :notes="notes" :date="date" :version="version" />
+        <ReleaseNotes :notes="notes" :date="date" :version="version" v-if="loaded" />
         <About />
         <Footer />
     </div>
@@ -36,7 +36,8 @@ export default {
             mac: '',
             version: '',
             date: '',
-            notes: []
+            notes: [],
+            loaded: false
         }
     },
     methods: {
@@ -73,7 +74,9 @@ export default {
                 } else if (link.indexOf('.exe') !== -1 && link.indexOf('.blockmap') == -1) {
                     this.PC = link
                 }
-            }            
+            }   
+
+            this.loaded = true         
         }
 
         request.send()
