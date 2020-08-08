@@ -20,7 +20,7 @@
 			locally on your computer.  This data is intended to remain on your local hard drive and not transfered to any cloud storage system.  This helps ensure that data related to students remains confidential.  Records in Seatsmart relate to students' academic performance and therefore should be protected just as any other student information.
 		</p>
 		<p>
-			Seatsmart is under active development, with many planned enhancements for the 2019-2020 academic year.  Read the <a href="https://github.com/thaddeusm/seatsmart-FHSU/wiki/Development-Roadmap-(Academic-Year-2019-2020)" target="_blank">Development Roadmap</a> for more information.
+			Seatsmart is under active development, though the shift to online learning during the COVID-19 pandemic has reduced the importance of several core features of Seatsmart.
 		</p>
     </section>
 </template>
