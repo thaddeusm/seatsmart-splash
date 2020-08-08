@@ -5,7 +5,7 @@
         </section>
         <h3>Seatsmart <span id="subtitle">| class participation manager</span></h3>
         <section id="linkArea">
-            <a href="https://mailfhsu-my.sharepoint.com/:v:/g/personal/tbmccleary_fhsu_edu/ERWcdtM1yBJPhffl5rvttiwBP8JNyhQA9_RoBg-kEkw4Pw?e=iyrKnZ" target="_blank">Walkthrough</a>
+            
         </section>
     </header>
 </template>
