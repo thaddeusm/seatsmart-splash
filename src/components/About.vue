@@ -2,25 +2,13 @@
     <section id="aboutContainer">
         <h4>About the Project</h4>
         <p>
-			Seatsmart offers a convenient way to implement classroom
-			participation guidance by the Department of English at Fort Hays State University for
-			courses conducted at campuses in China.
+			Seatsmart offers a convenient way to to manage classrooms by encouraging learners to make positive contributions during a lesson. 
 		</p>
 		<p>
-			Participation is considered an essential part of student performance and can impact final
-			course grades. A student begins the semester at the level of a 'C' letter grade for participation.
-			The instructor regularly adjusts the grade throughout the semester, making it visible on Blackboard.
-			This is intended to motivate students to make positive contributions during class sessions.  A
-			course syllabus should define how the instructor calculates the score, spelling out what behaviors
-			are encouraged and discouraged.
+			Instructors can use the application to track each student's participation throughout the course.  This makes feedback to students more transparent and actionable.
 		</p>
 		<p>
-			FHSU policies related to technology use and information security were carefully considered in the
-			development of Seatsmart.  Essential features of Seatsmart do not require Internet access.  All data is stored 
-			locally on your computer.  This data is intended to remain on your local hard drive and not transfered to any cloud storage system.  This helps ensure that data related to students remains confidential.  Records in Seatsmart relate to students' academic performance and therefore should be protected just as any other student information.
-		</p>
-		<p>
-			Seatsmart is under active development, though the shift to online learning during the COVID-19 pandemic has reduced the importance of several core features of Seatsmart.
+			Information security was carefully considered in the development of Seatsmart.  The basic features of the application do not require Internet access.  All data is stored locally on your computer.  This data is intended to remain on your local hard drive and not transfered to any cloud storage system.  This helps ensure that data related to students remains confidential.  Records in Seatsmart may relate to a student's academic performance and therefore should be protected just as any other grades.
 		</p>
     </section>
 </template>
