@@ -5,7 +5,9 @@
         </section>
         <h3>Seatsmart <span id="subtitle">| class participation manager</span></h3>
         <section id="linkArea">
-            
+            <a id="downloadLinksNavigation" href="#downloadLinks">download</a>
+            <a href="#features">features</a>
+            <a href="#aboutContainer">about</a>
         </section>
     </header>
 </template>
@@ -65,6 +67,10 @@ a:hover {
 
 @media screen and (max-width: 800px) {
     #subtitle {
+        display: none;
+    }
+
+    #downloadLinksNavigation {
         display: none;
     }
 }

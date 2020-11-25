@@ -16,6 +16,10 @@
             <h4>Control with a Mobile Device</h4>
             <img src="@/assets/remote.gif" alt="remote recording">
         </div>
+        <div class="feature">
+            <h4>Engage Students with Activities</h4>
+            <img src="@/assets/activities.gif" alt="formative assessment activities">
+        </div>
     </section>
 </template>
 
