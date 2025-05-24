@@ -1,7 +1,7 @@
 <template>
     <footer>
         <h6>an <img src="@/assets/github.svg" alt="github logo" id="github"><a href="https://github.com/thaddeusm/seatsmart-FHSU" target="_blank">open source application</a></h6>
-        <h6>created by <a href="https://www.thaddeus.education/" target="_blank">Thaddeus McCleary</a></h6>
+        <h6>created by <a href="https://thaddeus-mccleary.vercel.app/" target="_blank">Thaddeus McCleary</a></h6>
         <h6><a href="#" v-scroll-to="'#navigationContainer'"><img src="@/assets/up.svg" alt="up arrow" id="up"></a></h6>
     </footer>
 </template>
