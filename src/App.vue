@@ -54,29 +54,33 @@ export default {
     created() {
         let request = new XMLHttpRequest()
         request.open('GET', 'https://api.github.com/repos/thaddeusm/seatsmart-FHSU/releases/latest')
+        request.setRequestHeader('Content-Type', 'application/json')
 
         request.onreadystatechange = (response) => {
-            let formattedResponse = JSON.parse(response.target.response)
+            try {
+                let formattedResponse = JSON.parse(response.target.response)
 
-            this.version = formattedResponse['tag_name']
-            this.formatDate(formattedResponse['created_at'].split('T')[0])
+                this.version = formattedResponse['tag_name']
+                this.formatDate(formattedResponse['created_at'].split('T')[0])
 
-            this.notes = formattedResponse['body'].split('- ')
-            this.notes.shift()
+                this.notes = formattedResponse['body'].split('- ')
 
-            let assets = formattedResponse.assets
+                let assets = formattedResponse.assets
 
-            for (let i=0; i<assets.length; i++) {
-                let link = assets[i]['browser_download_url']
+                for (let i=0; i<assets.length; i++) {
+                    let link = assets[i]['browser_download_url']
 
-                if (link.indexOf('.dmg') !== -1 && link.indexOf('.blockmap') == -1) {
-                    this.mac = link
-                } else if (link.indexOf('.exe') !== -1 && link.indexOf('.blockmap') == -1) {
-                    this.PC = link
-                }
-            }   
+                    if (link.indexOf('.dmg') !== -1 && link.indexOf('.blockmap') == -1) {
+                        this.mac = link
+                    } else if (link.indexOf('.exe') !== -1 && link.indexOf('.blockmap') == -1) {
+                        this.PC = link
+                    }
+                }   
 
-            this.loaded = true         
+                this.loaded = true
+            } catch(e) {
+                console.log(e);
+            } 
         }
 
         request.send()
